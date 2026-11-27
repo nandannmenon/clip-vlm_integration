@@ -1,0 +1,66 @@
+{
+  "zero_shot": {
+    "method": "ZERO_SHOT_CLIP",
+    "alpha": null,
+    "average_accuracy": 0.8856999999999999,
+    "forgetting": 0.0,
+    "plasticity": 0.8856999999999999,
+    "final_task_accuracies": [
+      0.915,
+      0.927,
+      0.869,
+      0.908,
+      0.834,
+      0.873,
+      0.818,
+      0.883,
+      0.913,
+      0.917
+    ]
+  },
+  "sequential": {
+    "method": "SEQUENTIAL_CLIP_ALPHA_1.0",
+    "alpha": 1.0,
+    "average_accuracy": 0.8690999999999999,
+    "forgetting": 0.05666666666666672,
+    "plasticity": 0.9201,
+    "final_task_accuracies": [
+      0.815,
+      0.84,
+      0.847,
+      0.865,
+      0.886,
+      0.822,
+      0.871,
+      0.867,
+      0.928,
+      0.95
+    ]
+  },
+  "coma_0.7": {
+    "method": "CLIP_COMA_ALPHA_0.7",
+    "alpha": 0.7,
+    "average_accuracy": 0.9247,
+    "forgetting": 0.035666666666666624,
+    "plasticity": 0.9554,
+    "final_task_accuracies": [
+      0.901,
+      0.918,
+      0.908,
+      0.908,
+      0.949,
+      0.906,
+      0.906,
+      0.918,
+      0.968,
+      0.965
+    ]
+  },
+  "analysis": {
+    "improves_average_accuracy": true,
+    "accuracy_delta": 0.055600000000000094,
+    "reduces_forgetting": true,
+    "forgetting_delta": -0.021000000000000095,
+    "plasticity_delta": 0.0353
+  }
+}

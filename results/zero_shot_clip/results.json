@@ -1,0 +1,63 @@
+{
+  "method": "ZERO_SHOT_CLIP",
+  "alpha": null,
+  "config": {
+    "method": "ZERO_SHOT_CLIP",
+    "alpha": null,
+    "task_count": 10,
+    "batch_size": 8,
+    "epochs": 0,
+    "learning_rate": 0.0,
+    "seed": 42,
+    "device": "cuda"
+  },
+  "task_accuracies": [
+    0.915,
+    0.927,
+    0.869,
+    0.908,
+    0.834,
+    0.873,
+    0.818,
+    0.883,
+    0.913,
+    0.917
+  ],
+  "accuracy_matrix": {
+    "0": [
+      0.915
+    ],
+    "1": [
+      0.927
+    ],
+    "2": [
+      0.869
+    ],
+    "3": [
+      0.908
+    ],
+    "4": [
+      0.834
+    ],
+    "5": [
+      0.873
+    ],
+    "6": [
+      0.818
+    ],
+    "7": [
+      0.883
+    ],
+    "8": [
+      0.913
+    ],
+    "9": [
+      0.917
+    ]
+  },
+  "metrics": {
+    "Average Accuracy": 0.8856999999999999,
+    "Average Forgetting": 0.0,
+    "Plasticity": 0.8856999999999999
+  }
+}

@@ -1,0 +1,28 @@
+# Environments & Caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Temporary Files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datasets
+data/
+
+# Model Checkpoints (Heavy Binaries: 56 files totaling 59.75 GB preserved locally)
+*.pt
+results/**/*.pt
+
+# Allow all JSON experiment results, accuracy matrices, and metrics under results/
+!results/**/*.json
